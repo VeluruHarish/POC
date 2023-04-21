@@ -1,0 +1,14 @@
+<div>
+    <section *ngFor="let item of locdata">
+        <div class="card cards shadow m-3">
+            <div class="card-header">
+                <h4>{{item.header}}</h4>
+                <span>{{item.published_at}} | {{item.location}}</span>
+                <p>{{item.summary | wordlimit:40}}</p>
+                <p><b>keywords :</b> {{item.keywords}}</p>
+                <span><b>Go to source article :</b><a href="{{item.url}}"> {{item.url}}</a></span>
+                <p><b>Authors :</b> {{item.author}} {{item.source_name}}</p>
+            </div>
+        </div>
+    </section>
+</div>

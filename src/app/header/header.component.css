@@ -1,0 +1,22 @@
+div {
+    max-height: 200px;
+}
+
+#a {
+    background-color: red;
+    color: white;
+    padding-left: 20px;
+}
+
+h4 {
+    color: green;
+}
+
+.inline {
+    display: flex;
+}
+
+#b {
+    background-color: black;
+    color: white;
+}
